@@ -38,11 +38,11 @@ namespace TEST
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(107, 45);
+            this.label1.Location = new System.Drawing.Point(90, 44);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 20);
+            this.label1.Size = new System.Drawing.Size(112, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "UserName";
+            this.label1.Text = "tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -54,11 +54,11 @@ namespace TEST
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(107, 91);
+            this.label2.Location = new System.Drawing.Point(90, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 2;
-            this.label2.Text = "Mật khẩu";
+            this.label2.Text = "mật khẩu";
             // 
             // txtmatkhau
             // 
