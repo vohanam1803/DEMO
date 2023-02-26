@@ -57,7 +57,7 @@ namespace TEST
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(90, 91);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 20);
+            this.label2.Size = new System.Drawing.Size(75, 20);
             this.label2.TabIndex = 2;
             this.label2.Text = "mật khẩu";
             // 
@@ -76,6 +76,7 @@ namespace TEST
             this.btnlogin.TabIndex = 4;
             this.btnlogin.Text = "Đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click_1);
             // 
             // Form1
             // 
